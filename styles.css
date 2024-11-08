@@ -5,6 +5,17 @@
   font-family: Arial, sans-serif;
 }
 
+.gif-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gif-container img {
+  max-width: 90%;
+  height: auto;
+}
+
+
 body {
   display: flex;
   flex-direction: column;
