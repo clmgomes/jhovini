@@ -61,8 +61,8 @@ main {
 }
 
 .day:hover {
-  transform: scale(1.1 );
-  border: 2px solid #596363; /* Cinza claro para borda */
+  transform: scale(1.05 );
+  
 }
 
 .day h2 {
@@ -96,6 +96,17 @@ main {
   max-width: 80%;
   height: auto;
 }
+
+.gif-brasao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gif-brasao img {
+  max-width: 40%;
+  height: auto;
+}
+
 
 
 
